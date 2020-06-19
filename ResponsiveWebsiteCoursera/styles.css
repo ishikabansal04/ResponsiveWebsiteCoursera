@@ -1,0 +1,32 @@
+
+/** This is a comment that the browser will ignore,
+* Put your CSS code into this file
+*/
+
+/** Downloading of styles.css and index.html option was not avavilable to me so I made new css file with same name for same index file*/
+
+/**the following will change color, background colour, size of font, and placement of text*/
+h1{ 
+    color: black;
+    background: skyblue;
+    font-size: 40;
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+/**the following changes will be made on mouse hovering*/
+
+h1:hover{
+    /**it will change text colour from black to blue on hover*/
+    color:darkblue;
+
+    /**it will change background colour from skyblue to pink on hover*/
+    background-color:pink;
+
+    /**it will make text underlined on hover*/
+    text-decoration: underline;
+
+    /**it will change font size to 50px on hover*/
+    font-size:50px;
+}
